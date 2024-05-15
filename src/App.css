@@ -1,0 +1,56 @@
+/* App.css */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.balance {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.transaction-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: calc(50% - 5px);
+}
+
+.transaction-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.transaction-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.transaction-list li.expense {
+  background-color: #f8d7da;
+}
+
+.transaction-list li.income {
+  background-color: #d4edda;
+}
+
+.transaction-list li span {
+  float: right;
+  font-weight: bold;
+}
